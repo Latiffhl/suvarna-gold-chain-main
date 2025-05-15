@@ -40,11 +40,11 @@ const fetchGoldPrice = async (): Promise<GoldPriceData> => {
     return {
       open: 3250.225,
       high: 3257.2,
-      low: 3221.84,
-      close: 3233.515,
+      low: 3140.92,
+      close: 3154.92,
       exchange: 'DEMO',
       timestamp: Date.now(),
-      price: 3233.515,
+      price: 3154.92,
     };
   }
 };
@@ -72,7 +72,7 @@ export default function GoldPrice() {
     },
   });
 
-  // Format as currency in IDR (Indonesian Rupiah)
+  // Format IDR
   const formatPrice = (price: number | undefined) => {
     if (price === undefined || isNaN(price)) {
       return 'Data tidak tersedia';
@@ -83,7 +83,7 @@ export default function GoldPrice() {
       currency: 'IDR',
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
-    }).format(price * 16500); // Simple conversion to IDR
+    }).format(price * 16500);
   };
 
   // Format update time
