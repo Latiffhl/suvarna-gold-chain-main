@@ -14,7 +14,7 @@ const foundersList: FounderProps[] = [
     image: '/assets/img/founder/founder1.png',
   },
   {
-    name: 'Ahmad Jahroni',
+    name: 'Ahmat Jabroni',
     position: 'Chief Technology Officer',
     image: '/assets/img/founder/founder2.png',
   },
