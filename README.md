@@ -2,12 +2,23 @@
 
 ## Project info
 
-## What technologies are used for this project?
+## SUVARNA
 
-This project is built with:
+## 🛠 Tech Stack
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+| Teknologi    | Deskripsi                                      |
+|--------------|------------------------------------------------|
+| [Vite](https://vitejs.dev/)        | Fast and modern build tool & dev server |
+| [React](https://reactjs.org/)      | Library for building user interfaces     |
+| [TypeScript](https://www.typescriptlang.org/) | Typed superset of JavaScript           |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework             |
+| [shadcn/ui](https://ui.shadcn.dev/) | Accessible and beautiful UI components built with Radix UI |
+
+---
+
+## 📦 Instalasi
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/username/project-name.git
+cd project-name
