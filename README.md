@@ -1,6 +1,5 @@
-# Welcome to my project
+# WELCOE TO MY PROJECT
 
-## Project info
 
 ## SUVARNA
 
@@ -22,3 +21,13 @@
 ```bash
 git clone https://github.com/username/project-name.git
 cd project-name
+
+npm install
+# atau
+yarn install
+
+npm run dev
+# atau
+yarn dev
+
+
