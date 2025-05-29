@@ -7,7 +7,7 @@
 
 | Teknologi    | Deskripsi                                      |
 |--------------|------------------------------------------------|
-| [Vite](https://vitejs.dev/)        | Fast and modern build tool & dev server |
+|   <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge" />        | Fast and modern build tool & dev server |
 | [React](https://reactjs.org/)      | Library for building user interfaces     |
 | [TypeScript](https://www.typescriptlang.org/) | Typed superset of JavaScript           |
 | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework             |
