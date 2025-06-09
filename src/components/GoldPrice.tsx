@@ -17,7 +17,7 @@ interface GoldPriceData {
 const fetchGoldPrice = async (): Promise<GoldPriceData> => {
   // Using the provided fetch implementation
   const myHeaders = new Headers();
-  myHeaders.append('x-access-token', 'goldapi-300csmanklzj3-io');
+  // myHeaders.append('x-access-token', 'goldapi-mzmsmb4qnu8d-io');
   myHeaders.append('Content-Type', 'application/json');
 
   const requestOptions = {
@@ -123,11 +123,11 @@ export default function GoldPrice() {
               </div>
               <div className="flex justify-between mb-1">
                 <span className="text-gray-600 dark:text-gray-300">Tertinggi:</span>
-                <span className="font-semibold">{data ? formatPrice(data.high) : 'Loading...'}</span>
+                <span className="font-semibold">{data ? formatPrice(data.high_price) : 'Loading...'}</span>
               </div>
               <div className="flex justify-between mb-3">
                 <span className="text-gray-600 dark:text-gray-300">Terendah:</span>
-                <span className="font-semibold">{data ? formatPrice(data.low) : 'Loading...'}</span>
+                <span className="font-semibold">{data ? formatPrice(data.low_price) : 'Loading...'}</span>
               </div>
               <div className="text-xs text-gray-500 text-right">Update terakhir: {formatTime(lastUpdate)}</div>
             </>
