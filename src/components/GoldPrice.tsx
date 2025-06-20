@@ -17,7 +17,7 @@ interface GoldPriceData {
 const fetchGoldPrice = async (): Promise<GoldPriceData> => {
   // Using the provided fetch implementation
   const myHeaders = new Headers();
-  myHeaders.append('x-access-token', 'goldapi-mzmsmb4qnu8d-io');
+  // myHeaders.append('x-access-token', 'goldapi-mzmsmb4qnu8d-io');
   myHeaders.append('Content-Type', 'application/json');
 
   const requestOptions = {
