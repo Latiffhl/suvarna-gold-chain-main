@@ -17,20 +17,7 @@
 
 ---
 
-## 📦 Instalasi
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/username/project-name.git
-cd project-name
-
-npm install
-# atau
-yarn install
-
-npm run dev
-# atau
-yarn dev
 
 
 
